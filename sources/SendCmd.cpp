@@ -6,7 +6,7 @@ namespace Common{
 	{
 		auto doc = new tinyxml2::XMLDocument;
 		try{
-			if (doc->LoadFile(xml_file) != tinyxml2::XMLError::XML_NO_ERROR){
+			if (doc->LoadFile(xml_file) != tinyxml2::XMLError::XML_ERROR_PARSING_UNKNOWN){
 				throw "不是正确的xml格式文件!";
 			}
 

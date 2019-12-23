@@ -6,9 +6,9 @@ namespace Common{
 #define COMMON_VERSION		"1.19"
 
 #ifdef _DEBUG 
-	#define COMMON_NAME_AND_VERSION COMMON_NAME " " COMMON_VERSION " - Debug Mode"
+	#define COMMON_NAME_AND_VERSION COMMON_NAME" "COMMON_VERSION " - Debug Mode"
 #else
-	#define COMMON_NAME_AND_VERSION COMMON_NAME " " COMMON_VERSION " "
+	#define COMMON_NAME_AND_VERSION COMMON_NAME" "COMMON_VERSION" "
 #endif
 
 	class c_about_dlg : public c_dialog_builder
